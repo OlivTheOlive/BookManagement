@@ -11,22 +11,22 @@ Here's a basic outline of the classes and their methods:
 
 Book Class:
 
-    - init(self, title, author, year): initializes the Book object with the given title, author, and publication year
-    - get_title(self): returns the title of the book
-    - get_author(self): returns the author of the book
-    - get_year(self): returns the publication year of the book
+Done    - init(self, title, author, year): initializes the Book object with the given title, author, and publication year
+Done    - get_title(self): returns the title of the book
+Done    - get_author(self): returns the author of the book
+Done    - get_year(self): returns the publication year of the book
 
 User Class:
 
-    - init(self, name, email): initializes the User object with the given name and email
-    - get_name(self): returns the name of the user
-    - get_email(self): returns the email of the user
+Done    - init(self, name, email): initializes the User object with the given name and email
+Done    - get_name(self): returns the name of the user
+Done    - get_email(self): returns the email of the user
     - borrow_book(self, book): allows the user to borrow a book by adding it to their borrowed books list
     - return_book(self, book): allows the user to return a book by removing it from their borrowed books list
 
 Library Class:
 
-    - init(self, books): initializes the Library object with a list of books
+Done    - init(self, books): initializes the Library object with a list of books
     - display_available_books(self): displays the available books in the library
     - lend_book(self, user, book): allows a user to borrow a book by removing it from the list of available books and adding it to the user's borrowed books list
     - add_book(self, book): adds a book to the list of available books in the library
@@ -34,7 +34,7 @@ Library Class:
 
 Menu Class:
 
-    - init(self): initializes the Menu object with a list of options
+Done   - init(self): initializes the Menu object with a list of options
     - display_menu(self): displays the menu options
     - get_user_input(self): gets the user's input from the menu
     - display_books(self, library): displays the available books in the library
